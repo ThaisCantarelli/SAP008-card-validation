@@ -1,0 +1,88 @@
+body{
+  background-color: black;
+  margin: 200px;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.content{
+    width:300%;
+    background-color: rgb(85, 85, 87);
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card{
+    background-color: rgb(49, 49, 51);
+    width:350px;
+    height:200px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.form{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+    border-radius: 100px;
+   
+}
+
+.cat {
+    height: 55px;
+  
+}
+   img {
+    width: auto; 
+    max-height: 45px;
+    margin-left: 20px;
+
+    
+}
+
+.button{
+    background-color: rgb(200, 218, 44);
+    border-radius: 10px;
+    padding: 3%;
+    cursor: pointer;
+}
+
+
+.cardNumber{
+    background-color: transparent;
+    text-align: center;
+    color:aliceblue;
+    border-radius: 20px;
+    padding: 8px;
+    
+}
+
+h1{
+    border-radius: 20px;
+    
+}
+
+[data-valid="true"] .valid.message{
+    display: block;
+}
+[data-valid="false"] .invalid.message{
+    display: block;
+}
+
+.valid-message {
+   background-color: aqua;
+   display: none;
+}
+.invalid-message{
+    background-color: rgb(87, 5, 5);
+    display: none;
+}
